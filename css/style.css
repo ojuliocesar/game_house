@@ -1,0 +1,164 @@
+* {
+    font-family: 'Press Start 2P';
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('../img/bgc.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.main-nav {
+    background-color: #1a1f24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 30px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.items-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 170ms cubic-bezier(.45, .97, .68, 2.48);
+}
+
+.items-nav:hover {
+    transform: scale(1.08);
+}
+
+.wrapper-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.main-title, .subtitle {
+    text-align: center;
+    color: #fff;
+}
+
+.main-title {
+    font-size: 37px;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+#jogos {
+    height: 600px;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: none;
+}
+
+.main-subtitle {
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.main-section {
+    padding-top: 70px;
+}
+
+.main-games figure {
+    width: 20%;
+    text-align: center;
+}
+
+.games-action {
+    transition: transform 170ms cubic-bezier(.45, .97, .68, 2.48);
+}
+
+.games-action:hover {
+    transform: scale(1.05);
+}
+
+.image-games {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-games {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-games figcaption {
+    text-align: center;
+    padding: 8px;
+    font-size: 17px;
+    background-color: #0d0e0f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#sobre {
+    background-color: #1a1f24;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 60px;
+}
+
+.main-subtitle.-white {
+    color: #fff;
+}
+
+.about-image {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.main-about {
+    text-align: center;
+    margin-top: 55px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.abouts {
+    margin-bottom: 150px;
+}
+
+#contatos {
+    background-color: #000;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.contacts img {
+    width: 60px;
+    margin-top: 50px;
+}
