@@ -93,7 +93,7 @@ html {
 }
 
 .games-action:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .image-games {
@@ -157,7 +157,7 @@ html {
 }
 
 .abouts {
-    margin-bottom: 150px;
+    margin-bottom: 170px;
 }
 
 .sobre-game {
