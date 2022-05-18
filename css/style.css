@@ -60,8 +60,7 @@
 }
 
 #jogos {
-    height: 600px;
-    
+    background-color: rgba(0, 0, 0, 0);
 }
 
 html {
@@ -73,7 +72,7 @@ html {
 }
 
 .main-subtitle {
-    color: #000;
+    color: #1a1f24;
     font-size: 35px;
     text-align: center;
     margin-bottom: 70px;
@@ -86,6 +85,7 @@ html {
 .main-games figure {
     width: 20%;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .games-action {
@@ -101,6 +101,10 @@ html {
     border-radius: 10px;
 }
 
+.title-games {
+    text-decoration: none;
+}
+
 .main-games {
     width: 100%;
     display: flex;
@@ -111,9 +115,10 @@ html {
 .main-games figcaption {
     text-align: center;
     padding: 8px;
+    background-color: #000;
     font-size: 17px;
-    background-color: #0d0e0f;
     color: #fff;
+    margin-top: 9px;
     border-radius: 10px;
 }
 
@@ -124,8 +129,16 @@ html {
     padding-bottom: 60px;
 }
 
+.sobre {
+    margin-bottom: 100px;
+}
+
 .main-subtitle.-white {
     color: #fff;
+}
+
+.main-subtitle.-footer {
+    font-size: 27px;
 }
 
 .about-image {
@@ -145,6 +158,14 @@ html {
 
 .abouts {
     margin-bottom: 150px;
+}
+
+.sobre-game {
+    padding-top: 25px;
+}
+
+.end {
+    margin-bottom: 0;
 }
 
 #contatos {
